@@ -1,0 +1,4 @@
+<li ng-style="check ? {'text-decoration':'line-through'} : {}">{{ lesson }}</li>
+<button ng-click="dayAlert({ lesson: lesson, day: lessonDay })"></button>
+<input type='checkbox' ng-model='check'></input>
+<button ng-click="delete({ lesson: lesson })"></button>
